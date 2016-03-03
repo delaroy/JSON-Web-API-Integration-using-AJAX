@@ -1,0 +1,70 @@
+{
+    "status": "true",
+    "Content-Range": {
+        "ResultsRange": [
+            {
+                "first": "1",
+                "last": "2",
+                "max": "2"
+            }
+        ]
+    },
+    "data": {
+        "Results": [
+            {
+                "SeriesID": "1",
+                "EventNumber": "1",
+                "RunId": "189",
+                "FinishPosition": "184",
+                "GenderPosition": "163",
+                "EventDate": "2008-03-29",
+                "AthleteID": "600",
+                "RunTime": "00:24:39",
+                "PB": "0",
+                "Points": "88",
+                "AgeGrading": "0.523326572008114",
+                "AgeCategory": "SM25-29",
+                "FirstTimer": "0",
+                "GenuinePB": "0",
+                "Updated": "0000-00-00 00:00:00",
+                "HandicapRunTime": null,
+                "Assisted": null
+            },
+            {
+                "SeriesID": "1",
+                "EventNumber": "1",
+                "RunId": "62",
+                "FinishPosition": "32",
+                "GenderPosition": "29",
+                "EventDate": "2005-12-03",
+                "AthleteID": "600",
+                "RunTime": "00:21:10",
+                "PB": "1",
+                "Points": "222",
+                "AgeGrading": "0.609448818897638",
+                "AgeCategory": "SM25-29",
+                "FirstTimer": "1",
+                "GenuinePB": "0",
+                "Updated": "0000-00-00 00:00:00",
+                "HandicapRunTime": null,
+                "Assisted": null
+            }
+        ]
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "\"/v1/results?athleteId=600&offset=0&limit=100\""
+        },
+        {
+            "rel": "first",
+            "href": "\"/v1/results?athleteId=600&offset=0&limit=100\""
+        },
+        {
+            "rel": "last",
+            "href": "\"/v1/results?athleteId=600&offset=0&limit=100\""
+        }
+    ],
+    "timestamp": 1456572472,
+    "originalQryTime": 1456572472
+}
